@@ -1,0 +1,133 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0;
+    
+}
+
+p {
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    color: #4B5563;
+      
+}
+
+#textlgth-el {
+    
+    font-size: 18px;
+    color:  #8B5CF6;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin: 0;
+    letter-spacing: -2.5px;
+    color: #374151;
+}
+
+#titulo {
+    color: #8B5CF6;
+}
+
+.content-box {
+    height: 550px;
+    width: 550px;
+    background-color:#BAE6FD;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.elements{
+padding-top: 115px;
+padding-left: 52px;
+}
+
+#line {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 446px;
+    border: 2px solid #F0F9FF;
+}
+
+#btn-generator {
+    margin-top: 20px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #8B5CF6;
+}
+
+.passwords-space {
+    width: 446px;
+    display: flex;
+    justify-content: space-between;
+}
+.password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 210px;
+    height: 29px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background-color: #7DD3FC;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4C1D95;
+   
+}
+
+.input{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    gap: 8px;
+}
+
+#number {
+    width: 50px;
+}
+
+#description {
+    margin-bottom: 25px;
+}
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+   
+
+footer p {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 12px;
+}
